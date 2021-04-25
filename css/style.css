@@ -1,0 +1,74 @@
+body {
+    font-family: "Realway", sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.37)), url(img-1/world-map.jpg);
+}
+
+h1 {
+    color: rgb(0, 147, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-style: italic;
+    
+    box-shadow: 5px 2px 8px white;
+}
+.map {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.map a{
+    text-decoration: none;
+    color: white;
+}
+
+.map a:hover {
+    color: rgba(0, 128, 0, 0.99);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+#local {
+    width: 100%;
+    background : linear-gradient(270deg, rgb(0, 147, 255), rgb(0, 0, 0));
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 5px solid black;
+    /*box-shadow: 5px 2px 8px white;*/
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    
+    
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#cities td {
+    border:1px solid #dedede;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.15);
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
